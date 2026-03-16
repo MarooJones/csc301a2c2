@@ -539,8 +539,7 @@ public final class OrderService {
                     Object innerObj = entry.getValue();
                     if (!(innerObj instanceof Map<?,?>)) continue;
                     Map<?,?> innerMap = (Map<?,?>) innerObj;
-                    Map<Integer,Integer> map = new LinkedHashMap<>();
-                    for (Map.Entry<?,?> e : innerMap.entrySet()) {
+                    java.util.concurrent.ConcurrentHashMap<Integer,Integer> map = new java.util.concurrent.ConcurrentHashMap<>();                    for (Map.Entry<?,?> e : innerMap.entrySet()) {
                         try {
                             int pid = Integer.parseInt(e.getKey().toString());
                             Object v = e.getValue();
@@ -578,7 +577,8 @@ public final class OrderService {
         try {
             // Convert to JSON-friendly structure
             Map<String,Object> root = new LinkedHashMap<>();
-            for (Map.Entry<Integer,Map<Integer,Integer>> entry : purchases.entrySet()) {
+            for (Map.Entry<Integer, java.util.concurrent.ConcurrentHashMap<Integer,Integer>> entry 
+                : purchases.entrySet()) {
                 Map<String,Object> inner = new LinkedHashMap<>();
                 for (Map.Entry<Integer,Integer> e : entry.getValue().entrySet()) {
                     inner.put(String.valueOf(e.getKey()), e.getValue());
