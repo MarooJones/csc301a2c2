@@ -1,5 +1,5 @@
-/home/oai/share/a2/src/shared/HttpUtil.java
-/home/oai/share/a2/src/shared/Sha256.java
-/home/oai/share/a2/src/shared/SimpleJson.java
-/home/oai/share/a2/src/shared/Config.java
-/home/oai/share/a2/src/ISCS/ISCS.java
+/Users/jordanj/Desktop/UofTdocs/CSC301/A2C2/a2/src/shared/HttpUtil.java
+/Users/jordanj/Desktop/UofTdocs/CSC301/A2C2/a2/src/shared/SimpleJson.java
+/Users/jordanj/Desktop/UofTdocs/CSC301/A2C2/a2/src/shared/Config.java
+/Users/jordanj/Desktop/UofTdocs/CSC301/A2C2/a2/src/shared/Sha256.java
+/Users/jordanj/Desktop/UofTdocs/CSC301/A2C2/a2/src/ISCS/ISCS.java

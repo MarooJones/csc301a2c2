@@ -153,6 +153,7 @@ public final class OrderService {
         server.setExecutor(java.util.concurrent.Executors.newCachedThreadPool());
         server.start();
         System.out.println("OrderService listening on " + me.ip + ":" + me.port);
+        new java.util.concurrent.CountDownLatch(1).await();
     }
 
     /**

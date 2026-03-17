@@ -92,6 +92,7 @@ public final class UserService {
         server.setExecutor(java.util.concurrent.Executors.newCachedThreadPool());
         server.start();
         System.out.println("UserService listening on " + me.ip + ":" + me.port);
+        new java.util.concurrent.CountDownLatch(1).await();
     }
 
     /**

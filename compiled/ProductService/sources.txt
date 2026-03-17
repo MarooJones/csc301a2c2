@@ -1,5 +1,5 @@
-/Users/jordanj/Desktop/UofTdocs/CSC301/A1/myA1/a1/src/shared/HttpUtil.java
-/Users/jordanj/Desktop/UofTdocs/CSC301/A1/myA1/a1/src/shared/SimpleJson.java
-/Users/jordanj/Desktop/UofTdocs/CSC301/A1/myA1/a1/src/shared/Config.java
-/Users/jordanj/Desktop/UofTdocs/CSC301/A1/myA1/a1/src/shared/Sha256.java
-/Users/jordanj/Desktop/UofTdocs/CSC301/A1/myA1/a1/src/ProductService/ProductService.java
+/Users/jordanj/Desktop/UofTdocs/CSC301/A2C2/a2/src/shared/HttpUtil.java
+/Users/jordanj/Desktop/UofTdocs/CSC301/A2C2/a2/src/shared/SimpleJson.java
+/Users/jordanj/Desktop/UofTdocs/CSC301/A2C2/a2/src/shared/Config.java
+/Users/jordanj/Desktop/UofTdocs/CSC301/A2C2/a2/src/shared/Sha256.java
+/Users/jordanj/Desktop/UofTdocs/CSC301/A2C2/a2/src/ProductService/ProductService.java

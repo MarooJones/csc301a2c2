@@ -18,6 +18,7 @@ public final class ISCS {
         server.setExecutor(java.util.concurrent.Executors.newCachedThreadPool());
         server.start();
         System.out.println("ISCS listening on " + me.ip + ":" + me.port);
+        new java.util.concurrent.CountDownLatch(1).await();
     }
 
     private static void proxy(HttpExchange ex, Config.Service target) throws IOException {
